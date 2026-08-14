@@ -1,38 +1,55 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>博客</title>
-    <style>
-        .box {
-          width: 800px;
-          height: 600px;
-          background: #f0f0f0;  /* 灰色背景方便观察 */
-          display: flex;
-          justify-content: center; /* 水平居中 */
-          align-items: center;     /* 垂直居中 */
-        }
-      
-        .box2 {
-          width: 600px;
-          height: 200px;
-          background: #4CAF50;    /* 绿色子元素 */
-        }
-      
-    </style>
-  </head>
+<!DOCTYPE html> 
+<html lang="zh-CN">
+    <head>
+        <title>欢迎来到 Hongt 的博客!</title>
+        
+        <style>
+            .box {
+                width: 400px;
+                height: 400px;
+                background-color: rgb(49, 211, 240);
+                text-align: center;
+                margin: 0 auto;
+                border-radius: 10px;
+            }
 
-  
-  <body>
-      <h1 style="text-align: center;">我的博客</h1>  
-      <div class="box">
-        <h2>联系方式</h2>
-        <p>QQ: 2602169235</p>
-        <p>Telegram: <a href="https://t.me/TooHardToName">@TooHardToName</a></p>
-        <div class="box2">
-          <h7>邮箱</h7>
-          <p>a7725666@163.com</p>
-          <p>cht623377@gmail.com</p>
+            .box2 {
+                width: 400px;
+                height: 400px;
+                background-color: rgb(227, 240, 49);
+                text-align: center;
+                margin: 0 auto;
+                border-radius: 10px;
+
+                transition: all 0.3s linear;
+            }
+
+            .box2:hover {
+                transform: scale(1.01);
+            }
+        </style>
+
+        
+
+    </head>
+    <body>
+        <div style="text-align:center">
+            <h1>! ! 欢迎 ! !</h1>
+            <h4>网页由 Hongt 制作</h2>
         </div>
-      </div>
-  </body>
+
+        <hr>
+    
+        <div class="box">
+            <h2>以下是我的联系方式</h2>
+            <p>邮箱1: a7725666@163.com</p>
+            <p>邮箱2: cht623377@gmail.com</p>
+            <p>QQ: 2602169235</p>
+            <p>TG: <a href="https://t.me/TooHardToName"> @TooHardToName</a></p>
+        </div>
+
+        <hr>
+
+        <p>[到底了 T_T]</p>
+    </body>
 </html>
